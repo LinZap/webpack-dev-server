@@ -1,4 +1,4 @@
-# webpack-dev-server
+# Webpack Dev Server getApp
 
 > **THIS SERVER SHOULD BE USED FOR DEVELOPMENT ONLY!**
 > **DO NOT USE IT IN PRODUCTION!**
