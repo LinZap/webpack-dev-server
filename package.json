@@ -1,7 +1,7 @@
 {
-  "name": "webpack-dev-server",
+  "name": "webpack-dev-server-getApp",
   "version": "2.1.0-beta.4",
-  "author": "Tobias Koppers @sokra",
+  "author": ["Tobias Koppers @sokra","Zap @linzap"],
   "description": "Serves a webpack app. Updates the browser on changes.",
   "peerDependencies": {
     "webpack": "^2.1.0-beta"

@@ -1,12 +1,13 @@
 # webpack-dev-server
 
-**THIS SERVER SHOULD BE USED FOR DEVELOPMENT ONLY!**
-
-**DO NOT USE IT IN PRODUCTION!**
+> **THIS SERVER SHOULD BE USED FOR DEVELOPMENT ONLY!**
+> **DO NOT USE IT IN PRODUCTION!**
 
 ## The Origin Project [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
 
-## The Docs 
+Current Version `2.1.0-beta.4`
+
+## [Documentation](http://webpack.github.io/docs/webpack-dev-server.html)
 
 ##Enhance
 
