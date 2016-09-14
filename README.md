@@ -40,7 +40,7 @@ function addExtension(app){
 
 ###react-router
 
-if your project use [`react-router`](https://github.com/reactjs/react-router), you can follow as blow
+if your project use [`react-router`](https://github.com/reactjs/react-router), you can follow as below
 
 ```js
 var bundler = new webpackDevServer(compiler, {
@@ -56,6 +56,19 @@ function addExtension(app) {
 }
 ```
 if you want more information about react-router please see **[Histories-browser history](https://github.com/reactjs/react-router/blob/master/docs/guides/Histories.md#browserhistory)**.
+
+###hot-update
+
+The [`react-router`](https://github.com/reactjs/react-router) caused hot-update failed. You can fix it as below.
+
+```js
+    app.get(/.+\.hot-update\.json$/,function(req,res,next){
+        var reg = new RegExp(/.*\/(.+\.json)$/),
+            r = reg.exec(req._parsedUrl.pathname)
+        if(r) res.sendFile(`${process.cwd()}/build/${r[r.length-1]}`)
+        else next()
+    })
+```
 
 ## License
 Copyright 2012-2016 Tobias Koppers
